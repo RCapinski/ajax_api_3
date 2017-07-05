@@ -22,7 +22,7 @@ $(function() {
 	function showCountriesList (resp) {
     if (!resp) {
       alert('Countries info could not be loaded!');
-      return null;
+      return;
     };
 		countriesList.empty();
 		resp.forEach(function(item) {
